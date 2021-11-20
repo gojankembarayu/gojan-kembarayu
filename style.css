@@ -1,0 +1,30 @@
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+#services {
+  background-color: #e2edff;
+}
+
+#services .row > * {
+  padding: 2px;
+}
+section {
+  padding-top: 1rem;
+}
+#runningtext {
+  width: 100%;
+  background-color: #e2edff;
+  color: blueviolet;
+  position: relative;
+}
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 2px;
+}
