@@ -4,7 +4,7 @@ body {
 
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #e2edff;;
 }
 #services {
   background-color: #e2edff;
@@ -28,3 +28,21 @@ section {
 #gallery .row > * {
   padding: 2px;
 }
+/*style kategori*/
+.img-kategori{
+  
+  width :50px;
+}
+.img-kategori:hover{
+  transform: scale(1.2);
+  transition: 0.2s;
+
+}
+
+.row-container{
+  background-color: #e2edff;;
+  margin: 0px;
+}
+
+
+/*akhir style kategori
