@@ -31,7 +31,7 @@ section {
 /*style kategori*/
 .img-kategori{
   
-  width :50px;
+  width :100px;
 }
 .img-kategori:hover{
   transform: scale(1.2);
