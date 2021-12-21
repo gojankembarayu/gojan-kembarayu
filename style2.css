@@ -4,6 +4,56 @@ Edit in JSFiddle CSS * {
   box-sizing: border-box;
 }
 
+/* css ready.html------------*/
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+#services {
+  background-color: #e2edff;
+}
+
+#services .row > * {
+  padding: 2px;
+}
+
+section {
+  padding-top: 5rem;
+}
+#runningtext {
+  width: 100%;
+  background-color: #e2edff;
+  color: blueviolet;
+  position: relative;
+}
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 2px;
+}
+/*style kategori*/
+.img-kategori {
+  width: 100px;
+}
+.img-kategori:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.row-container {
+  background-color: #e2edff;
+  margin: 0px;
+}
+
+/*akhir style kategori
+
+
+/*akhir css ready----------*/
 body,
 html {
   height: 100%;
