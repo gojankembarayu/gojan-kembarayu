@@ -14,6 +14,18 @@
     <!--My CSS -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <script>   
+      function displayTime(){
+        var clientTime=new Date();
+        var time=new Date(clientTime.getTime());
+        var sh=time.getHours().toString();
+        var sm=time.getMinutes().toString();
+        var ss=time.getSeconds().toString();
+      document.getElementById("jam").innerHTML=(sh.length==1?"0"+sh:sh)+":"+(sm.length==1?"0"+sm:sm)+":"+(ss.length==1?"0"+ss:ss);
+      document.getElementById("jaminput").value = (sh.length==1?"0"+sh:sh)+":"+(sm.length==1?"0"+sm:sm)+":"+(ss.length==1?"0"+ss:ss);
+  }
+    </script> 
     
 
     <title>Gojan</title>
@@ -334,9 +346,19 @@
 
         <!--Akhir About-->
         <!--Awal Produk-->
+        <div class="row text-center mb-3">
+          <div class="col"> 
+      <div class="fs-6 text-primary" data-aos="fade-up" style="background-color: aqua" >Rabu,22 Desember 2021</div>
+     
+      <body  onload="setInterval('displayTime()', 1000);">
+
+        <h6 id="jam"></h6>
+
+      </div>
+
         <div class="container">
           <div class="row">
-            <div class="col-lg-2 col-md-2 col-sm-4 col-6 ">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
               <div class="card text-center">
                 <img src="img/onde.jpg"  class="card-img-top" alt="">
                 <div class="card-body">
@@ -353,7 +375,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-2 col-sm-4 col-6 ">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2 ">
               <div class="card text-center">
                 <img src="img/jolobiyo.jpg"  class="card-img-top" alt="">
                 <div class="card-body">
@@ -370,7 +392,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-2 col-sm-4 col-6 ">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2 ">
               <div class="card text-center">
                 <img src="img/klepon.jpg"  class="card-img-top" alt="">
                 <div class="card-body">
@@ -387,7 +409,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-2 col-sm-4 col-6 ">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
               <div class="card text-center">
                 <img src="img/lapis.jpg"  class="card-img-top" alt="">
                 <div class="card-body">
@@ -404,7 +426,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-2 col-sm-4 col-6 ">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2 ">
               <div class="card text-center">
                 <img src="img/molen.jpg"  class="card-img-top" alt="">
                 <div class="card-body">
@@ -421,7 +443,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-2 col-sm-4 col-6 ">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6 mt-2">
               <div class="card text-center">
                 <img src="img/risol.jpg"  class="card-img-top" alt="">
                 <div class="card-body">
